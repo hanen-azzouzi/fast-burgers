@@ -1,0 +1,171 @@
+body { 
+  font-family: 'Overpass', sans-serif;
+  text-transform: uppercase; 
+  color: #ffffff;
+}
+
+h1 {
+  font: 700 36px 'Oswald', sans-serif;
+  text-align: center;
+  color: #ff3a3a;
+}
+
+hr { 
+  max-width: 5em; 
+  margin-bottom: 30px; 
+}
+
+.all-the-foods {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div.clip-path-container {
+  display: inline-block;
+  position: relative;
+  height: 250px;
+  width: 250px;
+  margin: 10px ;
+  padding: 3px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  overflow: hidden;  
+  border-radius: 50%;
+  border-collapse: separate; 
+  background-color: #6e6b6b;
+}
+
+.clip-path-container:focus,
+.clip-path-container:active,
+.clip-path-container:hover {
+  border-radius: 50%;
+  outline: none;
+} 
+
+.food {
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  transition: all .2s ease-in-out;
+  transform: scale(1.5); 
+  outline: none;
+  overflow: hidden;  
+  clip-path: polygon(0 100%, 0 0, 52% 0, 52% 100%);
+  clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%);
+}
+
+
+.clip-path-container:hover .food {
+  clip-path: polygon(50% 100%, 50% 0, 100% 0, 100% 100%);
+  transform: scale(1.1);
+  
+}
+
+.clip-path-container:hover .description-holder { 
+  left: 20px;
+  opacity: 1;
+}
+
+.description-holder {
+  position: absolute;
+  top: 35px;
+  left: 120px;
+  height: 300px;
+  width: 100px;
+  transition: all .4s ease-in-out;
+  transition-delay: .1s;
+  opacity: 0;
+  text-align: right;
+}
+
+
+.description-holder h4 {
+  font-size: 18px;
+  margin-bottom: -8px;
+  color: #ff3434;
+  
+}
+
+.description-holder p {
+  max-width: 100px;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: none;
+  
+}
+.description-holder p  u {
+  max-width: 100px;
+  font-size: 20px;
+  line-height: 14px;
+  text-transform: none;
+  color: aquamarine;
+
+  
+}
+
+
+.bibimbap {
+  background-image: url('s1.jpg');
+  background-position: -8px 20;
+}
+
+.pizza {
+  background-image: url('s4.jpg');
+}
+.f1 {
+    background-image: url('s5.jpg');
+  }
+
+.f2 {
+    background-image: url('z7.jpg');
+  }
+  .f3 {
+    background-image: url('z3.png');
+  }
+  .f4 {
+    background-image: url('z4.png');
+  }
+  .f5 {
+    background-image: url('z8.jpg');
+  }
+  .f6 {
+    background-image: url('z10.png');
+  }
+  .f7 {
+    background-image: url('z1.jpg');
+  }
+  .f8 {
+    background-image: url('z2.png');
+  }
+  .f9 {
+    background-image: url('z6.png');
+  }
+
+.guacamole {
+  background-image: url('z11.png');
+  background-position: 50% 90%;
+}
+
+.cookie {
+  background-image: url('f1.png');
+  background-position: 50% 90%;
+}
+
+.donut {
+  background-image: url('f2.png');
+  background-position: 50% 70%;
+}
+
+.pancake {
+  background-image: url('f3.png');
+  background-position: 50% 90%;
+}
+.t1 {
+    background-image: url('f4.jpg');
+  }
+.t2 {
+    background-image: url('z6.png');
+  }
+
+  
